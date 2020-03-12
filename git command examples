@@ -1,0 +1,99 @@
+Microsoft Windows [Version 10.0.18363.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\7703031>cd
+C:\Users\7703031
+
+C:\Users\7703031>cd desktop
+
+C:\Users\7703031\Desktop>git clone https://github.com/nathanaelnguyen/WebProgramming_2020.git
+Cloning into 'WebProgramming_2020'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\7703031\Desktop>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 525E-CB0C
+
+ Directory of C:\Users\7703031\Desktop
+
+12/03/2020  01:58 PM    <DIR>          .
+12/03/2020  01:58 PM    <DIR>          ..
+12/03/2020  01:02 PM               998 System Information.lnk
+12/03/2020  01:58 PM    <DIR>          WebProgramming_2020
+               1 File(s)            998 bytes
+               3 Dir(s)  374,521,495,552 bytes free
+
+C:\Users\7703031\Desktop>cd WebProgramming_2020
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git add *
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git commit -m
+error: switch `m' requires a value
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git commit -m "added a read me"
+[master (root-commit) 09b38a0] added a read me
+ Committer: NATHANAEL NGUYEN <7703031@student.swin.edu.au>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+C:\Users\7703031\Desktop\WebProgramming_2020>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 120.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/nathanaelnguyen/WebProgramming_2020.git
+ * [new branch]      master -> master
+
+C:\Users\7703031\Desktop\WebProgramming_2020>
+
